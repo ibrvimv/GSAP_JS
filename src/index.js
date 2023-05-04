@@ -1,4 +1,4 @@
-import "./styles/main.css";
+import "./style.css";
 import me from "./assets/me.jpg";
 
 const something = () => {
