@@ -7,6 +7,14 @@ const menuItems = document.getElementById("menuItems");
 
 function menuOpen() {
   menuItems.classList.toggle("hidden");
+  gsap.fromTo(
+    menuItems,
+    {
+      opacity: 0,
+      y: -100,
+    },
+    { opacity: 1, y: 0 }
+  );
 }
 
 window.onclick = function (event) {
