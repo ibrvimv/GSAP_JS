@@ -6,10 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
-  <body>
-    <header class="bg-slate-300 h-32 w-full">Something</header>
-    <div class="h-7 w-full bg-red-400">Adlet</div>
-    <div class="h-7 w-full bg-red-500">Ibraimov</div>
-    <div class="h-7 w-full bg-red-600"></div>
+  <body class="">
+    <nav class="h-10 w-full flex items-center">
+      <menu class="flex justify-between w-full items-center px-10">
+        <div id="dropbtn" class="cursor-pointer relative dropbtn">
+          <div>Menu</div>
+          <div
+            id="menuItems"
+            class="dropdown-content absolute top-12 hidden px-8 py-12 left-0 rounded-lg bg-blue-300"
+          >
+            <div><a href="#">Clothing</a></div>
+            <div><a href="#">Footwear</a></div>
+            <div><a href="#">Equipment</a></div>
+            <div><a href="#">Outlet</a></div>
+            <div><a href="#">Italy</a></div>
+            <div><a href="#">Support</a></div>
+          </div>
+        </div>
+        <div>Logo</div>
+        <div>Search</div>
+      </menu>
+    </nav>
   </body>
 </html>

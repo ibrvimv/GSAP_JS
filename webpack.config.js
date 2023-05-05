@@ -22,7 +22,6 @@ module.exports = {
     hot: true,
     compress: true,
     historyApiFallback: true,
-    watchFiles: path.resolve(__dirname, "src"),
   },
   module: {
     rules: [
